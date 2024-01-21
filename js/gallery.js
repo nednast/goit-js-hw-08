@@ -91,6 +91,7 @@ renderImages();
 const gallery = document.querySelector(".gallery");
 
 let modalOpen = false;
+
 gallery.addEventListener("click", (e) => {
   if (e.target === e.currentTarget) return;
   const previewLink = e.target.getAttribute("data-source");
